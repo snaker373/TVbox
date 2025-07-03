@@ -1,9 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        var employee = new Employee();
-        employee.baseSalary = 1000;
-        employee.hourlyRate = 20;
-        int wage = employee.calculateWage(10);
-        System.out.println(wage);
+        var Lamborgini = new Car();
+        Lamborgini.setId(212221);
+        Lamborgini.setMark("Aventodor");
+        Lamborgini.setModelName("Lamborgini");
+        Lamborgini.setMaxSpeed(390);
+        Lamborgini.setAge(3);
+        Lamborgini.setMinSpeed(0);
+        Lamborgini.drive();
+        var f  = Lamborgini.getinfo();
+        System.out.println(f);
     }
 }
