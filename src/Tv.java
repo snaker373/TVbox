@@ -5,7 +5,7 @@ public class Tv {
         var tv = new TvBox();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Commands: on, off, volume up, volume down, chanel up, chanel down");
+        System.out.println("Commands: on, off, volume up, volume down, chanel up, chanel down");//for commit
 
         while (true) {
             System.out.println("> ");

@@ -8,7 +8,7 @@ public class TvBox {
         if (power) {
             System.out.println("Tv is on");
         } else {
-            System.out.println("Tv is off");
+            System.out.println("Tv is off");//for commit
         }
     }
     public void volumeUp() {
